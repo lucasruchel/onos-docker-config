@@ -51,6 +51,6 @@ ONOS_INSTANCES="$OC1 $OC2 $OC3"
 waitForStart
 
 echo "Activating OpenFlow and ProxyARP applications..."
-ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1 app activate org.onosproject.openflow proxyarp layout
+ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1 app activate org.onosproject.openflow proxyarp layout fwd
 ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1
 
