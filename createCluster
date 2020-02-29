@@ -58,4 +58,4 @@ sleep 10
 ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1 cfg set org.onosproject.fwd.ReactiveForwarding flowTimeout 5
 ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1 cfg set org.onosproject.fwd.ReactiveForwarding matchTcpUdpPorts true 
 
-ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1
+#ssh -p 8101 -o StrictHostKeyChecking=no onos@$OC1
